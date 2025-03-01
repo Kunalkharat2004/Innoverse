@@ -1,6 +1,6 @@
-import { config } from "./config/config";
-import app from "./app";
-import connectDB from "./config/db";
+import { config } from "./src/config/config";
+import app from "./src/app";
+import connectDB from "./src/config/db";
 
 const main = async () => {
   const PORT = config.port || 3300;
