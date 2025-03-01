@@ -43,7 +43,7 @@ const GeoSpatialAnalysis = () => {
 
         {/* Heading (Order: 2 on all screens) */}
         <div className="w-full md:flex-[0_0_55%] md:w-auto p-4 md:p-4 flex items-center">
-          <h1 className="text-3xl mb-8 flex items-center" data-aos={"fade-up"}>
+          <h1 className="text-3xl mb-8 flex items-center text-white-light" data-aos={"fade-up"}>
           {t("geoSpatialAnalysisCardheading")}{" "}
             <img src={geoSpatialAnalysisIcon} alt="" className="w-12 h-12 ml-2" />
           </h1>
@@ -53,14 +53,14 @@ const GeoSpatialAnalysis = () => {
         <div
           className="w-full order-2 md:order-2 md:flex-[0_0_55%] md:w-auto p-4 md:p-8"
         >
-          <p className="text-[20px]" data-aos={"fade-up"}>
+          <p className="text-[20px] text-white-light" data-aos={"fade-up"}>
           {t("geoSpatialAnalysisdescription")}
           </p>
           <button
             className="mt-6 w-full md:w-auto px-6 py-3 bg-blue-600 text-white rounded-lg 
             font-semibold transition duration-500 ease-in-out transform hover:scale-105 
             hover:bg-gray-700 hover:shadow-lg focus:outline-none focus:ring-2 
-            focus:ring-gray-500"
+            focus:ring-gray-500 text-white-light"
             onClick={handleButtonClick}
             data-aos={"fade-up"}
           >

@@ -8,7 +8,6 @@ import {
 } from "@material-tailwind/react";
 import { WiDayCloudy } from "react-icons/wi";
 import { FaDrawPolygon } from "react-icons/fa";
-import { MdSecurity } from "react-icons/md";
 
 export default function SideBar({
 	setActiveComponent,
@@ -64,23 +63,6 @@ export default function SideBar({
 					</ListItemPrefix>
 					<span className="text-blue-gray-900 dark:text-gray-300">
 						Geo Fencing
-					</span>
-				</ListItem>
-
-				<ListItem
-					className={`hover:bg-blue-gray-100 dark:hover:bg-gray-700 ${
-						activeItem === "Infusion" ? "bg-blue-100 dark:bg-gray-700" : ""
-					}`}
-					onClick={() => {
-						setActiveComponent("Infusion");
-						setActiveItem("Infusion");
-					}}
-				>
-					<ListItemPrefix>
-						<MdSecurity className="h-5 w-5 text-red-600 dark:text-red-400" />
-					</ListItemPrefix>
-					<span className="text-blue-gray-900 dark:text-gray-300">
-						Intrusion Detection
 					</span>
 				</ListItem>
 			</List>

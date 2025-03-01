@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-import Logo from "../../assets/image/logo.png";
+import Logo from "../../assets/image/header1.png";
 import sun from "../../assets/image/sun.png";
 import moon from "../../assets/image/moon.png";
 import { useMediaQuery } from "@mui/material";
@@ -37,7 +37,7 @@ const pages = [
 ];
 
 
-const settings = ["Logout"];
+const settings = ["Contact","About","Logout"];
 
 const Navbar = () => {
 	const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -85,9 +85,11 @@ const Navbar = () => {
 	};
 
 	const settingsHandlers = {
-		Profile: handleProfile,
-		Feedback: handleFeedback,
-		Dashboard: handleDashboard,
+		// Profile: handleProfile,
+		// Feedback: handleFeedback,
+		// Dashboard: handleDashboard,
+		Contact: () => navigate("/contact"),
+		About: () => navigate("/about"),
 		Logout: handleLogout,
 	};
 

@@ -8,20 +8,20 @@ const resources = {
     translation: {
       // FAQ translations
       "faqheading": "Frequently Asked Questions",
-      "faq.question1": "What is the Smart Irrigation System?",
-      "faq.answer1": "The Smart Irrigation System is an automated solution that optimizes water usage by analyzing real-time soil moisture, crop requirements, and weather conditions. It helps farmers and gardeners ensure efficient water delivery with minimal waste.",
-      "faq.question2": "How does the system work?",
-      "faq.answer2": "Our system uses sensors to monitor soil moisture and weather forecasts. Based on crop data and predefined thresholds, it decides whether to activate or deactivate the water pump. Users can monitor and control the pump remotely through a cloud-based web app.",
-      "faq.question3": "What crops can the system support?",
-      "faq.answer3": "The system supports a wide range of crops by utilizing datasets with specific water requirements for each crop. Simply select the crop you are growing, and the system will adjust watering schedules accordingly.",
-      "faq.question4": "Can I control the irrigation remotely?",
-      "faq.answer4": "Yes! You can monitor sensor data and manage the pump status remotely through our web app. You’ll receive real-time updates on soil conditions and pump activity to stay informed about your farm.",
-      "faq.question5": "What happens if it rains unexpectedly?",
-      "faq.answer5": "The system integrates with weather APIs to predict rainfall. If rain is forecasted, it will delay or skip irrigation to conserve water. You can also configure manual overrides if needed.",
-      "faq.question6": "How often is the soil moisture data updated?",
-      "faq.answer6": "The system collects data from soil moisture sensors in real-time or at scheduled intervals. The frequency can be customized based on crop type and farm conditions to ensure precise watering.",
-      "faq.question7": "What if the internet connection is lost?",
-      "faq.answer7": "In case of connectivity issues, the system can run in offline mode using pre-configured thresholds and schedules. As soon as the connection is restored, it will sync with the cloud and update the data.",
+      "faq.question1": "What is Krishimitra – the AI Driven Farming Assistant?",
+      "faq.answer1": "Krishimitra is an innovative AI-powered platform that provides real-time, data-driven insights to help farmers optimize crop management, predict pest and disease outbreaks, and improve overall farm sustainability.",
+      "faq.question2": "How does Krishimitra work?",
+      "faq.answer2": "It integrates data from soil sensors, weather forecasts, satellite imagery, and historical crop records with advanced machine learning models to deliver actionable recommendations tailored to your farm's needs.",
+      "faq.question3": "What technologies power Krishimitra?",
+      "faq.answer3": "Krishimitra leverages IoT sensors, cloud computing, AI, machine learning, and image processing techniques to continuously monitor environmental conditions and analyze crop health for precise decision support.",
+      "faq.question4": "How accurate are the system's predictions?",
+      "faq.answer4": "Our system is designed to achieve over 85% accuracy in identifying pest and disease risks. It continuously improves through user feedback and ongoing data integration, ensuring reliable insights over time.",
+      "faq.question5": "What challenges does Krishimitra address?",
+      "faq.answer5": "It tackles issues such as unpredictable soil conditions, pest infestations, and disease outbreaks by providing timely alerts and recommendations, helping farmers mitigate risks and optimize resource usage.",
+      "faq.question6": "How does the system analyze soil conditions?",
+      "faq.answer6": "By using IoT-based soil sensors to monitor moisture, pH, and nutrient levels, Krishimitra offers tailored advice on irrigation, fertilization, and soil management to maintain optimal growing conditions",
+      "faq.question7": "Does Krishimitra offer localized weather forecasts?",
+      "faq.answer7": "Yes, the platform integrates with reliable weather APIs to provide localized, real-time weather predictions that assist in planning irrigation schedules and protecting crops from adverse weather",
         
 
        // Info sections translations
@@ -58,37 +58,37 @@ const resources = {
  
 
        // HomePage texts
-       "homepage.title": "Efficient Farming with Smart Irrigation",
-       "homepage.description": "Optimize water usage with an intelligent system that analyzes soil conditions, crop needs, and weather forecasts. Stay updated through our web platform and ensure your crops get the water they need when they need it.",
+       "homepage.title": "Krushi Mitra",
+       "homepage.description": "Leverage our advanced AI tools to enhance your farming practices. Our platform provides personalized pesticide recommendations, soil analysis, and market pricing predictions to help you grow healthier crops and maximize profits.",
        "homepage.getStarted": "Get Started",
        "homepage.viewMore": "View More",
 
-       // Testimonials Section
        "testimonialsheading": "What people are saying.",
-       "testimonialsdescription": "Hear from those who’ve experienced the impact firsthand.",
-      "testimonials.0.message": "The AI-powered crop recommendation feature has transformed how we choose crops for our fields. It ensures that we plant the right crop for the soil and weather, leading to better productivity and sustainable farming.",
-      "testimonials.0.name": "Dr. Arjun Patel",
-      "testimonials.0.role": "Agronomist",
+  "testimonialsdescription": "Hear from those who’ve experienced the impact firsthand.",
+  
+  "testimonials.0.message": "The AI-powered crop recommendation feature has transformed how we choose crops for our fields. It ensures that we plant the right crop for the soil and weather, leading to better productivity and sustainable farming.",
+  "testimonials.0.name": "Dr. Arjun Patel",
+  "testimonials.0.role": "Agronomist",
 
-      "testimonials.1.message": "With personalized fertilizer suggestions, we’ve optimized crop nutrition and reduced waste. The precise recommendations have improved the health of our crops while lowering costs.",
-      "testimonials.1.name": "Priya Mehta",
-      "testimonials.1.role": "Agricultural Consultant",
+  "testimonials.1.message": "With personalized fertilizer suggestions, we’ve optimized crop nutrition and reduced waste. The precise recommendations have improved the health of our crops while lowering costs.",
+  "testimonials.1.name": "Priya Mehta",
+  "testimonials.1.role": "Agricultural Consultant",
 
-      "testimonials.2.message": "The crop yield prediction tool has been a game-changer for our farm. It gives us a clear understanding of potential yields, helping us plan for harvests and manage resources more effectively.",
-      "testimonials.2.name": "Suresh Kumar",
-      "testimonials.2.role": "Farm Manager",
+  "testimonials.2.message": "The crop yield prediction tool has been a game-changer for our farm. It gives us a clear understanding of potential yields, helping us plan for harvests and manage resources more effectively.",
+  "testimonials.2.name": "Suresh Kumar",
+  "testimonials.2.role": "Farm Manager",
 
-      "testimonials.3.message": "The combination of weather data, crop recommendations, and irrigation control has greatly benefited our village's agricultural efforts. This platform provides all the insights we need in one place.",
-      "testimonials.3.name": "Anjali Singh",
-      "testimonials.3.role": "Local Government Official",
+  "testimonials.3.message": "The combination of weather data, crop recommendations, and irrigation control has greatly benefited our village's agricultural efforts. This platform provides all the insights we need in one place.",
+  "testimonials.3.name": "Anjali Singh",
+  "testimonials.3.role": "Local Government Official",
 
-      "testimonials.4.message": "The system’s AI-driven insights have been pivotal in identifying crops suited for varying soil conditions across our region. It has empowered farmers to make better planting decisions.",
-      "testimonials.4.name": "Rahul Desai",
-      "testimonials.4.role": "Soil Scientist",
+  "testimonials.4.message": "The system’s AI-driven insights have been pivotal in identifying crops suited for varying soil conditions across our region. It has empowered farmers to make better planting decisions.",
+  "testimonials.4.name": "Rahul Desai",
+  "testimonials.4.role": "Soil Scientist",
 
-      "testimonials.5.message": "Since using this platform, my farm’s yield has improved significantly. The crop recommendation and irrigation control tools have taken the guesswork out of farming and made everything more efficient.",
-      "testimonials.5.name": "Ravi Sharma",
-      "testimonials.5.role": "Farmer",
+  "testimonials.5.message": "Since using this platform, my farm’s yield has improved significantly. The crop recommendation and irrigation control tools have taken the guesswork out of farming and made everything more efficient.",
+  "testimonials.5.name": "Ravi Sharma",
+  "testimonials.5.role": "Farmer",
 
       // Features Card Section
 
@@ -108,25 +108,25 @@ const resources = {
         "featuresCard.description4": "Analyze the crop and vegetable prices in market and provide suggestions to optimize farmer's profit",
 
 
-        // Features Section
-        featureheading: "Our Features",
-        featuredescription: "Explore the key features of our smart irrigation system that help you manage water efficiently and promote sustainable farming practices.",
+       // Features Section
+"featureheading": "Our Features",
+"featuredescription": "Discover how our AI-driven solutions empower farmers with data-driven insights, optimized crop management, and sustainable farming practices.",
 
-        feature1title:"Real-Time Soil Monitoring",
-        feature1description:"Track soil moisture levels in real-time to maintain ideal growing conditions for your crops.",
-        feature2title:"Smart Automated Irrigation",
-        feature2description:"Automatically control water pumps based on real-time sensor readings and specific crop needs, reducing manual effort.",
-        feature3title:"Maximized Water Efficiency",
-        feature3description:"Leverage predictive analytics to minimize water wastage, ensuring sustainable farming and healthy crops.",
-        feature4title:"Weather-Aware Irrigation",
-        feature4description:"Adjust irrigation schedules dynamically with weather forecasts, ensuring water is not wasted before rain.",
+"feature1title": "Crop Recommendation",
+"feature1description": "Receive AI-powered recommendations for the best crops to grow based on soil conditions, weather, and location-specific data.",
 
-        // Map Card Section
-        "mapCardheading": "Why Smart Irrigation Matters?",
-        "mapCarddescription1": "Monitor soil moisture in real-time to optimize water usage and reduce waste.",
-        "mapCarddescription2": "Utilize geolocation and weather data to predict irrigation needs accurately.",
-        "mapCarddescription3": "Automate water pumps remotely via cloud control, ensuring crops receive water when they need it.",
+"feature2title": "PestPedia – Smart Pest Management",
+"feature2description": "Identify pests, understand their impact on crops, and access eco-friendly solutions to mitigate infestations effectively.",
 
+"feature3title": "Crop Swapping & Optimization",
+"feature3description": "Optimize crop selection by predicting yield and production based on real-time weather updates and market trends.",
+
+"feature4title": "Crop Market Trend Analyzer",
+"feature4description": "Analyze market prices for crops and vegetables, providing valuable insights to maximize farmer profits and enhance sustainability.",
+       "mapCardheading": "Why AI-Driven Farming Matters?",
+"mapCarddescription1": "Enhance crop productivity with real-time monitoring of soil conditions and weather patterns.",
+"mapCarddescription2": "Utilize AI-powered insights to make data-driven decisions for efficient resource management.",
+"mapCarddescription3": "Automate irrigation, pest control, and fertilization using smart sensors and cloud-based control systems.",
         // Optimal Crop Season Card Section
         "optimalCropSeasonCardheading": "Optimal Crop Season Predictor",
         "optimalCropSeasonCarddescription": "The Optimal Cropping Season Predictor is an intelligent tool designed to help users determine the ideal season for growing specific crops. It analyzes a variety of factors, including croppingyear, crop type, and state, to provide accurate recommendations,ensuring farmers achieve the best yield with minimal water and resource usage.",
@@ -144,22 +144,27 @@ const resources = {
   },
   te: {
     translation: {
-      // FAQ translations in Telugu
-      "faqheading":"తరచుగా అడిగే ప్రశ్నలు",
-      "faq.question1": "స్మార్ట్ ఇర్రిగేషన్ సిస్టమ్ అంటే ఏమిటి?",
-      "faq.answer1": "స్మార్ట్ ఇర్రిగేషన్ సిస్టమ్ అనేది నేల ఆర్ద్రత, పంటల అవసరాలు మరియు వాతావరణ పరిస్థితులను విశ్లేషించి నీటి వినియోగాన్ని ఆప్టిమైజ్ చేసే ఆటోమేటెడ్ సొల్యూషన్. ఇది రైతులు మరియు తోటల యజమానులకు కనీస వ్యర్థంతో సమర్థవంతమైన నీటి సరఫరాను నిర్ధారించడంలో సహాయపడుతుంది.",
-      "faq.question2": "ఈ సిస్టమ్ ఎలా పని చేస్తుంది?",
-      "faq.answer2": "మా సిస్టమ్ నేల ఆర్ద్రత మరియు వాతావరణ అంచనాలను పర్యవేక్షించడానికి సెన్సార్లను ఉపయోగిస్తుంది. పంట డేటా మరియు ముందే నిర్వచించిన థ్రెషోల్డ్ల ఆధారంగా, ఇది నీటి పంపును సక్రియం చేయాలా వద్దా అని నిర్ణయిస్తుంది. వినియోగదారులు క్లౌడ్-బేస్డ్ వెబ్ అప్లికేషన్ ద్వారా రిమోట్లో పంప్ స్థితిని పర్యవేక్షించవచ్చు మరియు నియంత్రించవచ్చు.",
-      "faq.question3": "ఈ సిస్టమ్ ఏ పంటలకు మద్దతు ఇస్తుంది?",
-      "faq.answer3": "ప్రతి పంటకు నిర్దిష్ట నీటి అవసరాలతో డేటాసెట్లను ఉపయోగించడం ద్వారా ఈ సిస్టమ్ విస్తృత పంటలకు మద్దతు ఇస్తుంది. మీరు పండించే పంటను ఎంచుకోండి, సిస్టమ్ తగిన నీటి షెడ్యూల్లను స్వయంచాలకంగా సర్దుబాటు చేస్తుంది.",
-      "faq.question4": "నేను రిమోట్గా సాగునీటిని నియంత్రించగలనా?",
-      "faq.answer4": "అవును! మీరు మా వెబ్ అప్లికేషన్ ద్వారా సెన్సార్ డేటాను పర్యవేక్షించవచ్చు మరియు పంప్ స్థితిని నిర్వహించవచ్చు. మీ పొలం గురించి సమాచారం పొందడానికి నేల పరిస్థితులు మరియు పంప్ కార్యాచరణపై రియల్-టైమ్ నవీకరణలను పొందుతారు.",
-      "faq.question5": "ఊహించని వర్షాలు పడితే ఏమి జరుగుతుంది?",
-      "faq.answer5": "వర్షపాతాన్ని అంచనా వేయడానికి సిస్టమ్ వెదర్ APIలతో సమన్వయిస్తుంది. వర్షం అంచనా వేస్తే, నీటిని ఆదా చేయడానికి సాగునీటిని వాయిదా వేస్తుంది లేదా దాటవేస్తుంది. అవసరమైతే మాన్యువల్ ఓవర్రైడ్లను కూడా కాన్ఫిగర్ చేయవచ్చు.",
-      "faq.question6": "నేల ఆర్ద్రత డేటా ఎంత తరచుగా నవీకరించబడుతుంది?",
-      "faq.answer6": "సిస్టమ్ నేల ఆర్ద్రత సెన్సార్ల నుండి డేటాను రియల్-టైమ్లో లేదా షెడ్యూల్ చేసిన విరామాల్లో సేకరిస్తుంది. ఖచ్చితమైన సాగునీటిని నిర్ధారించడానికి పంట రకం మరియు పొల పరిస్థితుల ఆధారంగా ఫ్రీక్వెన్సీని కస్టమైజ్ చేయవచ్చు.",
-      "faq.question7": "ఇంటర్నెట్ కనెక్షన్ కోల్పోతే ఏమి చేయాలి?",
-      "faq.answer7": "కనెక్టివిటీ సమస్యల సందర్భంలో, సిస్టమ్ ప్రీ-కాన్ఫిగర్ చేసిన థ్రెషోల్డ్లు మరియు షెడ్యూల్లను ఉపయోగించి ఆఫ్లైన్ మోడ్లో నడపవచ్చు. కనెక్షన్ పునరుద్ధరించబడిన వెంటనే, ఇది క్లౌడ్తో సమకాలీకరించబడుతుంది మరియు డేటాను నవీకరిస్తుంది.",
+     "faqheading": "తరచుగా అడుగు ప్రశ్నలు",
+  "faq.question1": "కృషిమిత్ర - AI ఆధారిత వ్యవసాయ సహాయకుడు అంటే ఏమిటి?",
+  "faq.answer1": "కృషిమిత్ర ఒక వినూత్న AI ఆధారిత వేదిక, ఇది రైతులకు పంట నిర్వహణను మెరుగుపరిచేందుకు, కీటకాల మరియు వ్యాధుల వ్యాప్తిని అంచనా వేయడానికి మరియు వ్యవసాయ స్థిరత్వాన్ని మెరుగుపరిచేందుకు రియల్-టైమ్ డేటా ఆధారిత విశ్లేషణలను అందిస్తుంది.",
+  
+  "faq.question2": "కృషిమిత్ర ఎలా పనిచేస్తుంది?",
+  "faq.answer2": "ఇది మట్టి సెన్సార్లు, వాతావరణ సూచనలు, ఉపగ్రహ చిత్రాలు మరియు పంట చరిత్ర డేటాను AI, మెషిన్ లెర్నింగ్ మోడల్స్ ద్వారా విలీనం చేసి, మీ వ్యవసాయ అవసరాలకు అనుగుణంగా మార్గదర్శక సూచనలను అందిస్తుంది.",
+  
+  "faq.question3": "కృషిమిత్ర ఏ సాంకేతిక పరిజ్ఞానాలను ఉపయోగిస్తుంది?",
+  "faq.answer3": "కృషిమిత్ర IoT సెన్సార్లు, క్లౌడ్ కంప్యూటింగ్, AI, మెషిన్ లెర్నింగ్ మరియు ఇమేజ్ ప్రాసెసింగ్ టెక్నిక్స్‌ను ఉపయోగించి, పర్యావరణ పరిస్థితుల నిరంతర పర్యవేక్షణను నిర్వహిస్తుంది మరియు పంట ఆరోగ్యాన్ని విశ్లేషించడానికి సహాయపడుతుంది.",
+  
+  "faq.question4": "ఈ వ్యవస్థ సూచనల విశ్వసనీయత ఎంత?",
+  "faq.answer4": "మా వ్యవస్థ 85% కి పైగా ఖచ్చితత్వంతో కీటకాల మరియు వ్యాధి ప్రమాదాలను గుర్తించేందుకు రూపొందించబడింది. ఇది వినియోగదారు అభిప్రాయాన్ని మరియు కొనసాగుతున్న డేటా సమీకరణను ఉపయోగించి నిరంతరం మెరుగుపరుచుకుంటుంది.",
+  
+  "faq.question5": "కృషిమిత్ర ఏవిధమైన సవాళ్లను పరిష్కరిస్తుంది?",
+  "faq.answer5": "ఇది రైతులకు మట్టిలో అనిశ్చితమైన మార్పులు, కీటకాల దాడులు మరియు వ్యాధుల ఉద్భవాన్ని ముందుగా హెచ్చరికలు, సలహాలు అందించి సహాయపడుతుంది, తద్వారా నష్టం తగ్గించుకుని, వనరులను సమర్థంగా ఉపయోగించుకునేలా చేస్తుంది.",
+  
+  "faq.question6": "మట్టి పరిస్థితుల విశ్లేషణను ఈ వ్యవస్థ ఎలా నిర్వహిస్తుంది?",
+  "faq.answer6": "ఇది IoT ఆధారిత మట్టి సెన్సార్లను ఉపయోగించి తేమ, pH, మరియు పోషక స్థాయిలను మానిటర్ చేస్తుంది మరియు నీటిపారుదల, ఎరువుల వినియోగం, మట్టి నిర్వహణకు ప్రత్యేకమైన సూచనలను అందిస్తుంది.",
+  
+  "faq.question7": "కృషిమిత్ర స్థానిక వాతావరణ సూచనలను అందిస్తుందా?",
+  "faq.answer7": "అవును, ఈ వేదిక నమ్మదగిన వాతావరణ APIలతో సమన్వయం చేయబడింది, తద్వారా స్థానిక, సమయానుసారమైన వాతావరణ సూచనలను అందించి, నీటిపారుదల షెడ్యూలింగ్ మరియు పంటలను ప్రతికూల వాతావరణ పరిస్థితుల నుండి రక్షించడానికి సహాయపడుతుంది.",
 
       // Info sections translations in Telugu
       "info.section1.title": "ఆటోమేటెడ్ ఇర్రిగేషన్ సిస్టమ్ అంటే ఏమిటి?",
@@ -194,38 +199,37 @@ const resources = {
       "info.section6.content1": "మా ఆటోమేటెడ్ ఇర్రిగేషన్ సిస్టమ్తో సమర్థవంతమైన నీటి నిర్వహణ వైపు మీ ప్రయాణాన్ని ప్రారంభించండి. కేవలం కొన్ని దశలతో, మీరు ఎక్కడి నుండైనా సాగునీటి ప్రక్రియను పర్యవేక్షించవచ్చు, నియంత్రించవచ్చు మరియు ఆప్టిమైజ్ చేయవచ్చు, నీటి వనరుల స్థిరమైన ఉపయోగం మరియు ఆరోగ్యకరమైన పంటలను నిర్ధారిస్తుంది.",
 
       // HomePage texts in Telugu
-      "homepage.title": "స్మార్ట్ ఇర్రిగేషన్తో సమర్థవంతమైన వ్యవసాయం",
-      "homepage.description": "నేల పరిస్థితులు, పంటల అవసరాలు మరియు వాతావరణ అంచనాలను విశ్లేషించే స్మార్ట్ సిస్టమ్తో నీటి వినియోగాన్ని ఆప్టిమైజ్ చేయండి. మీ పంటలకు అవసరమైన నీరు సరైన సమయంలో లభిస్తుందని నిర్ధారించుకోవడానికి మా వెబ్ ప్లాట్ఫారమ్ ద్వారా నవీకరించబడండి.",
+      "homepage.title": "కృషి మిత్ర",
+      "homepage.description": "మా ఆధునిక AI సాధనాలను ఉపయోగించి మీ వ్యవసాయ విధానాలను మెరుగుపరచుకోండి. మా ప్లాట్‌ఫారమ్ వ్యక్తిగత కీటకనాశన సిఫారసులు, నేల విశ్లేషణ, మరియు మార్కెట్ ధరల అంచనాలను అందిస్తుంది, जिससे మీరు ఆరోగ్యకరమైన పంటలను పండించి అధిక లాభాలను పొందవచ్చు.",
       "homepage.getStarted": "ప్రారంభించండి",
       "homepage.viewMore": "మరిన్ని చూడండి",
 
-      // Testimonials Section in Telugu
-      "testimonialsheading": "మనం గురించి ఏమంటున్నారు?",  
-"testimonialsdescription": "మా సేవల ప్రభావాన్ని ప్రత్యక్షంగా అనుభవించినవారి మాటల్లో వినండి.",
+      "testimonialsheading": "ప్రజలు ఏమి చెబుతున్నారు.",
+  "testimonialsdescription": "ఈ వ్యవస్థ ప్రభావాన్ని ప్రత్యక్షంగా అనుభవించిన వారిని వినండి.",
 
-      "testimonials.0.message": "AI-శక్తివంతమైన పంట సిఫారసు సౌలభ్యం మేము మా పొలాలకు పంటలను ఎంచుకునే విధానాన్ని మార్చివేసింది. నేల మరియు వాతావరణానికి సరిపోయే సరైన పంటలను నాటడాన్ని ఇది నిర్ధారిస్తుంది, ఇది మెరుగైన ఉత్పాదకత మరియు స్థిరమైన వ్యవసాయానికి దారి తీస్తుంది.",
-      "testimonials.0.name": "డాక్టర్ అర్జున్ పటేల్",
-      "testimonials.0.role": "కృషి శాస్త్రవేత్త",
+  "testimonials.0.message": "ఎయ్ఐ ఆధారిత పంట సిఫారసు ఫీచర్ మా వ్యవసాయ విధానాన్ని మార్చింది. ఇది నేల మరియు వాతావరణానికి సరిపడే పంటను వేసేలా చూసుకోవటంతో, అధిక ఉత్పాదకత మరియు స్థిరమైన వ్యవసాయానికి దారి తీసింది.",
+  "testimonials.0.name": "డా. అర్జున్ పటేల్",
+  "testimonials.0.role": "వ్యవసాయ శాస్త్రవేత్త",
 
-      "testimonials.1.message": "వ్యక్తిగత ఎరువు సూచనలతో, మేము పంట పోషణను ఆప్టిమైజ్ చేసాము మరియు వ్యర్థాన్ని తగ్గించాము. ఖచ్చితమైన సిఫారసులు మా పంటల ఆరోగ్యాన్ని మెరుగుపరిచాయి మరియు ఖర్చులను తగ్గించాయి.",
-      "testimonials.1.name": "ప్రియ మెహతా",
-      "testimonials.1.role": "వ్యవసాయ సలహాదారు",
+  "testimonials.1.message": "వ్యక్తిగత ఎరువుల సూచనలతో, మేము పంట పోషణను మెరుగుపరచి వ్యర్థాలను తగ్గించాము. ఖచ్చితమైన సిఫారసులతో మా పంటల ఆరోగ్యం మెరుగుపడింది మరియు ఖర్చులు తగ్గాయి.",
+  "testimonials.1.name": "ప్రియా మెహతా",
+  "testimonials.1.role": "వ్యవసాయ సలహాదారు",
 
-      "testimonials.2.message": "పంట దిగుబడి అంచనా సాధనం మా పొలానికి గేమ్-చేంజర్గా నిలిచింది. ఇది సంభావ్య దిగుబడులపై స్పష్టమైన అవగాహనను ఇస్తుంది, కోతల కోసం ప్రణాళిక రూపకల్పన మరియు వనరుల నిర్వహణలో సహాయపడుతుంది.",
-      "testimonials.2.name": "సురేష్ కుమార్",
-      "testimonials.2.role": "ఫామ్ మేనేజర్",
+  "testimonials.2.message": "పంట దిగుబడి అంచనా సాధనం మా వ్యవసాయానికి గేమ్-చేంజర్‌గా మారింది. ఇది మాకు సంభావ్య దిగుబడులపై స్పష్టమైన అవగాహనను అందించడంతో పాటు, కోతల కోసం ప్రణాళికా రచన మరియు వనరుల నిర్వహణలో సహాయపడింది.",
+  "testimonials.2.name": "సురేష్ కుమార్",
+  "testimonials.2.role": "ఫార్మ్ మేనేజర్",
 
-      "testimonials.3.message": "వాతావరణ డేటా, పంట సిఫారసులు మరియు సాగునీటి నియంత్రణ కలయిక మా గ్రామం వ్యవసాయ ప్రయత్నాలకు గొప్ప ప్రయోజనం చేకూర్చింది. ఈ ప్లాట్ఫారమ్ అన్ని అవసరమైన అంతర్దృష్టులను ఒకే ప్రదేశంలో అందిస్తుంది.",
-      "testimonials.3.name": "అంజలి సింగ్",
-      "testimonials.3.role": "స్థానిక ప్రభుత్వ అధికారి",
+  "testimonials.3.message": "వాతావరణ డేటా, పంట సిఫారసులు, మరియు నీటిపారుదల నియంత్రణ కలయిక మా గ్రామంలోని వ్యవసాయ రంగానికి చాలా ప్రయోజనకరంగా మారింది. ఈ వేదిక అవసరమైన అన్ని వివరాలను ఒకే చోట అందిస్తుంది.",
+  "testimonials.3.name": "అంజలి సింగ్",
+  "testimonials.3.role": "స్థానిక ప్రభుత్వ అధికారి",
 
-      "testimonials.4.message": "సిస్టమ్ యొక్క AI-డ్రైవ్ అంతర్దృష్టులు మా ప్రాంతంలోని వివిధ నేల పరిస్థితులకు అనుగుణంగా ఉన్న పంటలను గుర్తించడంలో కీలక పాత్ర పోషించాయి. ఇది రైతులకు మంచి నాటే నిర్ణయాలు తీసుకోవడానికి అధికారం ఇచ్చింది.",
-      "testimonials.4.name": "రాహుల్ దేశాయి",
-      "testimonials.4.role": "నేల శాస్త్రవేత్త",
+  "testimonials.4.message": "ఈ వ్యవస్థ యొక్క ఎయ్ఐ ఆధారిత విశ్లేషణలు వివిధ నేల పరిస్థితులకు అనుగుణమైన పంటలను గుర్తించడంలో కీలకమైన పాత్ర పోషించాయి. ఇది రైతులను మెరుగైన పంట ఎంపిక నిర్ణయాలను తీసుకునేలా చేసింది.",
+  "testimonials.4.name": "రాహుల్ దేశాయి",
+  "testimonials.4.role": "మట్టిశాస్త్రవేత్త",
 
-      "testimonials.5.message": "ఈ ప్లాట్ఫారమ్ను ఉపయోగించినప్పటి నుండి, నా పొలం దిగుబడి గణనీయంగా మెరుగుపడింది. పంట సిఫారసు మరియు సాగునీటి నియంత్రణ సాధనాలు అంచనాలను తీసివేసి ప్రతిదీ మరింత సమర్థవంతంగా చేసాయి.",
-      "testimonials.5.name": "రవి శర్మ",
-      "testimonials.5.role": "రైతు",
+  "testimonials.5.message": "ఈ వేదికను ఉపయోగించిన తరువాత, మా వ్యవసాయ దిగుబడి గణనీయంగా మెరుగుపడింది. పంట సిఫారసులు మరియు నీటిపారుదల నియంత్రణ సాధనాలు వ్యవసాయాన్ని మరింత సమర్థవంతంగా మార్చాయి.",
+  "testimonials.5.name": "రవి శర్మ",
+  "testimonials.5.role": "రైతు",
 
       // Features Card Section in Telugu
       "featureCardheading": "మా విశేషాలను అన్వేషించండి",
@@ -243,28 +247,26 @@ const resources = {
       "featuresCard.title4": "పంట మార్కెట్ ట్రెండ్ విశ్లేషకుడు",
       "featuresCard.description4": "మార్కెట్లో పంటలు మరియు కూరగాయల ధరలను విశ్లేషించి రైతుల లాభాన్ని ఆప్టిమైజ్ చేయడానికి సూచనలను అందిస్తుంది",
 
-      // Features Section in Telugu
-featureheading: "మా ఫీచర్లు",  
-featuredescription: "నీటి నిర్వహణను సమర్థంగా నిర్వహించి, సుస్థిరమైన వ్యవసాయ విధానాలను ప్రోత్సహించడానికి సహాయపడే మా స్మార్ట్ ఇరిగేషన్ వ్యవస్థ యొక్క ముఖ్య ఫీచర్లను అన్వేషించండి.",  
+    "featureheading": "మా ప్రత్యేకతలు",
+"featuredescription": "డేటా ఆధారిత అంచనాలు, మెరుగైన పంట నిర్వహణ మరియు స్థిరమైన వ్యవసాయ పద్ధతులతో రైతులను శక్తివంతం చేయడానికి మా AI ఆధారిత పరిష్కారాలు ఎలా సహాయపడతాయో తెలుసుకోండి.",
 
-feature1title: "రియల్-టైమ్ మట్టి మానిటరింగ్",  
-feature1description: "మీ పంటలకు అనువైన పెరుగుదల పరిస్థితులను కాపాడటానికి మట్టి తేమ స్థాయిలను తక్షణమే ట్రాక్ చేయండి.",  
+"feature1title": "పంట సూచన",
+"feature1description": "మట్టినిల్వలు, వాతావరణం, మరియు ప్రదేశం-ప్రత్యేక డేటా ఆధారంగా పెంచడానికి ఉత్తమమైన పంటల కోసం AI ఆధారిత సూచనలు పొందండి.",
 
-feature2title: "స్మార్ట్ ఆటోమేటెడ్ ఇరిగేషన్",  
-feature2description: "సెన్సార్ రీడింగ్స్ మరియు నిర్దిష్ట పంట అవసరాల ఆధారంగా నీటి పంపులను ఆటోమేటిక్‌గా నియంత్రించండి, చేతితో చేసే శ్రమను తగ్గించండి.",  
+"feature2title": "పెస్ట్‌పీడియా – తెలివైన పురుగు నిర్వహణ",
+"feature2description": "పురుగులను గుర్తించండి, అవి పంటలపై కలిగించే ప్రభావాన్ని అర్థం చేసుకోండి మరియు పర్యావరణానికి అనుకూలమైన పరిష్కారాలతో వాటిని సమర్థవంతంగా నివారించండి.",
 
-feature3title: "గరిష్టమైన నీటి సామర్థ్యం",  
-feature3description: "నీటి వృధాను తగ్గించేందుకు మరియు ఆరోగ్యకరమైన పంటల పెరుగుదలను నిర్ధారించేందుకు ప్రిడిక్టివ్ అనలిటిక్స్‌ను ఉపయోగించండి.",  
+"feature3title": "పంట మార్పిడి & ఆప్టిమైజేషన్",
+"feature3description": "పంటల దిగుబడి మరియు ఉత్పత్తిని వాస్తవ-సమయ వాతావరణ నవీకరణలు మరియు మార్కెట్ ట్రెండ్ల ఆధారంగా అంచనా వేసి, సరైన పంటను ఎంచుకోవడానికి సహాయపడండి.",
 
-feature4title: "వాతావరణ ఆధారిత ఇరిగేషన్",  
-feature4description: "వర్షం పడే ముందు నీరు వృధా కాకుండా ఉండేందుకు, వాతావరణ సూచనల ఆధారంగా ఇరిగేషన్ షెడ్యూల్‌ను డైనమిక్‌గా సర్దుబాటు చేయండి.",
+"feature4title": "పంట మార్కెట్ ట్రెండ్ విశ్లేషకుడు",
+"feature4description": "పంటలు మరియు కూరగాయల మార్కెట్ ధరలను విశ్లేషించి, రైతులు అధిక లాభాలను పొందడానికి మరియు వ్యవసాయాన్ని స్థిరంగా నిర్వహించడానికి విలువైన సూచనలు అందించండి.",
 
-         // Map Card Section in Telugu
-           "mapCardheading": "స్మార్ట్ ఇరిగేషన్ ఎందుకు ముఖ్యమైనది?",  
-"mapCarddescription1": "నీటి వినియోగాన్ని మెరుగుపరిచేందుకు మరియు వృధాను తగ్గించేందుకు మట్టి తేమను తక్షణమే పరిశీలించండి.",  
-"mapCarddescription2": "సరిగ్గా పంటలకు అవసరమైన నీటి అవసరాన్ని ఊహించేందుకు భౌగోళికస్థానం మరియు వాతావరణ డేటాను ఉపయోగించండి.",  
-"mapCarddescription3": "మేఘ గణన ద్వారా నీటి పంపులను రిమోట్‌గా ఆటోమేట్ చేయండి, తద్వారా పంటలకు అవసరమైనప్పుడు నీరు అందించబడుతుంది.", 
-
+// Map Card Section in Telugu
+"mapCardheading": "AI ఆధారిత వ్యవసాయం ఎందుకు ముఖ్యమైనది?",
+"mapCarddescription1": "మట్టినిల్వలు మరియు వాతావరణ పరిస్థితుల实时 గమనిక ద్వారా పంట ఉత్పాదకతను మెరుగుపరచండి.",
+"mapCarddescription2": "AI ఆధారిత విశ్లేషణలను ఉపయోగించి సమర్థవంతమైన వనరుల నిర్వహణకు డేటా ఆధారిత నిర్ణయాలను తీసుకోండి.",
+"mapCarddescription3": "స్మార్ట్ సెన్సార్లు మరియు క్లౌడ్ ఆధారిత నియంత్రణ వ్యవస్థల ద్వారా నీరు పోయడం, పురుగుల నియంత్రణ మరియు ఎరువుల నిర్వహణను ఆటోమేట్ చేయండి.",
 // Optimal Crop Section in Telugu
 // అనుకూలమైన పంట సీజన్ కార్డ్ విభాగం  
 "optimalCropSeasonCardheading": "అనుకూలమైన పంట సీజన్ సూచిక",  
@@ -285,21 +287,27 @@ feature4description: "వర్షం పడే ముందు నీరు వ
 
   hi:{
     translation:{
-        // FAQ translations in Hindi
-      "faq.question1": "स्मार्ट सिंचाई प्रणाली क्या है?",
-      "faq.answer1": "स्मार्ट सिंचाई प्रणाली एक स्वचालित समाधान है जो मिट्टी की नमी, फसल की आवश्यकताओं और मौसम की स्थिति का विश्लेषण करके पानी के उपयोग को अनुकूलित करती है। यह किसानों और मालीों को कम बर्बादी के साथ कुशल जल वितरण सुनिश्चित करने में मदद करती है।",
-      "faq.question2": "सिस्टम कैसे काम करता है?",
-      "faq.answer2": "हमारा सिस्टम मिट्टी की नमी और मौसम पूर्वानुमान की निगरानी के लिए सेंसर का उपयोग करता है। फसल डेटा और पूर्वनिर्धारित सीमाओं के आधार पर, यह पानी के पंप को सक्रिय या निष्क्रिय करने का निर्णय लेता है। उपयोगकर्ता क्लाउड-आधारित वेब ऐप के माध्यम से पंप की स्थिति को दूर से नियंत्रित कर सकते हैं।",
-      "faq.question3": "सिस्टम किन फसलों को सपोर्ट करता है?",
-      "faq.answer3": "यह सिस्टम प्रत्येक फसल की विशिष्ट पानी की आवश्यकताओं वाले डेटासेट का उपयोग करके विभिन्न फसलों को सपोर्ट करता है। बस आपकी फसल का चयन करें, और सिस्टम स्वचालित रूप से सिंचाई अनुसूची समायोजित कर देगा।",
-      "faq.question4": "क्या मैं सिंचाई को दूर से नियंत्रित कर सकता हूँ?",
-      "faq.answer4": "हाँ! आप हमारे वेब ऐप के माध्यम से सेंसर डेटा की निगरानी और पंप स्थिति प्रबंधित कर सकते हैं। आपको मिट्टी की स्थिति और पंप गतिविधि के रियल-टाइम अपडेट प्राप्त होंगे।",
-      "faq.question5": "अनपेक्षित बारिश होने पर क्या होगा?",
-      "faq.answer5": "सिस्टम वेदर API के साथ एकीकृत होकर बारिश का पूर्वानुमान लगाता है। बारिश के पूर्वानुमान होने पर यह पानी बचाने के लिए सिंचाई स्थगित या रद्द कर देगा। आप मैन्युअल ओवरराइड भी सेट कर सकते हैं।",
-      "faq.question6": "मिट्टी की नमी का डेटा कितनी बार अपडेट होता है?",
-      "faq.answer6": "सिस्टम मिट्टी की नमी सेंसर से डेटा रियल-टाइम या निर्धारित अंतराल पर एकत्र करता है। सटीक सिंचाई सुनिश्चित करने के लिए फसल प्रकार और खेत की स्थितियों के आधार पर आवृत्ति अनुकूलित की जा सकती है।",
-      "faq.question7": "इंटरनेट कनेक्शन खोने पर क्या होगा?",
-      "faq.answer7": "कनेक्टिविटी समस्याओं की स्थिति में, सिस्टम पूर्व-कॉन्फ़िगर सीमाओं और अनुसूची का उपयोग करके ऑफ़लाइन मोड में चल सकता है। कनेक्शन पुनर्स्थापित होते ही यह क्लाउड के साथ सिंक हो जाएगा।",
+        "faqheading": "अक्सर पूछे जाने वाले प्रश्न",
+  "faq.question1": "कृषिमित्र – एआई संचालित कृषि सहायक क्या है?",
+  "faq.answer1": "कृषिमित्र एक अभिनव एआई-संचालित मंच है जो किसानों को फसल प्रबंधन का अनुकूलन करने, कीट और रोग प्रकोपों की भविष्यवाणी करने और समग्र कृषि स्थिरता में सुधार करने के लिए वास्तविक समय में डेटा-संचालित अंतर्दृष्टि प्रदान करता है।",
+  
+  "faq.question2": "कृषिमित्र कैसे काम करता है?",
+  "faq.answer2": "यह मिट्टी के सेंसर, मौसम पूर्वानुमान, उपग्रह इमेजरी और ऐतिहासिक फसल रिकॉर्ड से डेटा एकीकृत करता है और उन्नत मशीन लर्निंग मॉडल का उपयोग करके आपके खेत की आवश्यकताओं के अनुसार क्रियाशील सिफारिशें प्रदान करता है।",
+  
+  "faq.question3": "कृषिमित्र किन तकनीकों द्वारा संचालित है?",
+  "faq.answer3": "कृषिमित्र आईओटी सेंसर, क्लाउड कंप्यूटिंग, एआई, मशीन लर्निंग और इमेज प्रोसेसिंग तकनीकों का उपयोग करता है ताकि पर्यावरणीय परिस्थितियों की लगातार निगरानी की जा सके और सटीक निर्णय समर्थन के लिए फसल के स्वास्थ्य का विश्लेषण किया जा सके।",
+  
+  "faq.question4": "इस प्रणाली की भविष्यवाणियां कितनी सटीक हैं?",
+  "faq.answer4": "हमारी प्रणाली कीट और रोग जोखिमों की पहचान में 85% से अधिक सटीकता प्राप्त करने के लिए डिज़ाइन की गई है। यह उपयोगकर्ता फीडबैक और निरंतर डेटा एकीकरण के माध्यम से समय के साथ सुधार करती रहती है, जिससे विश्वसनीय अंतर्दृष्टि प्रदान होती है।",
+  
+  "faq.question5": "कृषिमित्र किन चुनौतियों का समाधान करता है?",
+  "faq.answer5": "यह किसानों को मिट्टी की अप्रत्याशित स्थितियों, कीट संक्रमण और रोग प्रकोपों जैसी समस्याओं से निपटने में मदद करता है, समय पर अलर्ट और सिफारिशें प्रदान करके जोखिमों को कम करने और संसाधनों के अनुकूलन में सहायता करता है।",
+  
+  "faq.question6": "यह प्रणाली मिट्टी की स्थिति का विश्लेषण कैसे करती है?",
+  "faq.answer6": "आईओटी आधारित मिट्टी सेंसर का उपयोग करके नमी, पीएच और पोषक तत्वों के स्तर की निगरानी करता है और सिंचाई, उर्वरक उपयोग और मिट्टी प्रबंधन पर विशेष रूप से अनुकूलित सलाह प्रदान करता है।",
+  
+  "faq.question7": "क्या कृषिमित्र स्थानीय मौसम पूर्वानुमान प्रदान करता है?",
+  "faq.answer7": "हाँ, यह मंच विश्वसनीय मौसम एपीआई के साथ एकीकृत है ताकि स्थानीय, वास्तविक समय के मौसम पूर्वानुमान प्रदान किए जा सकें, जो सिंचाई कार्यक्रमों की योजना बनाने और फसलों को प्रतिकूल मौसम से बचाने में मदद करता है।",
 
       // Info sections translations in Hindi
       "info.section1.title": "स्वचालित सिंचाई प्रणाली क्या है?",
@@ -334,35 +342,37 @@ feature4description: "వర్షం పడే ముందు నీరు వ
       "info.section6.content1": "हमारी स्वचालित सिंचाई प्रणाली के साथ कुशल जल प्रबंधन की ओर अपनी यात्रा प्रारंभ करें। कुछ ही चरणों में, आप कहीं से भी सिंचाई प्रक्रिया निगरानी, नियंत्रण और अनुकूलित कर सकते हैं, जल संसाधनों के टिकाऊ उपयोग और स्वस्थ फसलों को सुनिश्चित करते हुए।",
 
       // HomePage texts in Hindi
-      "homepage.title": "स्मार्ट सिंचाई के साथ कुशल कृषि",
-      "homepage.description": "मिट्टी की स्थिति, फसल आवश्यकताओं और मौसम पूर्वानुमान का विश्लेषण करने वाली बुद्धिमान प्रणाली के साथ पानी का उपयोग अनुकूलित करें। हमारे वेब प्लेटफॉर्म के माध्यम से अपडेट रहें और सुनिश्चित करें कि आपकी फसलों को सही समय पर आवश्यक पानी मिले।",
+      "homepage.title": "कृषि मित्र",
+      "homepage.description": "हमारे उन्नत AI टूल्स का उपयोग करके अपनी खेती की प्रक्रियाओं को बेहतर बनाएं। हमारा प्लेटफॉर्म आपको व्यक्तिगत कीटनाशक सिफारिशें, मिट्टी विश्लेषण और बाजार मूल्य पूर्वानुमान प्रदान करता है, जिससे आप स्वस्थ फसल उगा सकें और अधिक मुनाफा कमा सकें।",
       "homepage.getStarted": "प्रारंभ करें",
       "homepage.viewMore": "और देखें",
 
-      // Testimonials Section in Hindi
-      "testimonials.0.message": "AI-संचालित फसल सिफारिश सुविधा ने हमारे खेतों के लिए फसल चयन को पूरी तरह बदल दिया है। यह मिट्टी और मौसम के अनुकूल सही फसल लगाना सुनिश्चित करता है, जिससे बेहतर उत्पादकता और टिकाऊ कृषि होती है।",
-      "testimonials.0.name": "डॉ. अर्जुन पटेल",
-      "testimonials.0.role": "कृषि वैज्ञानिक",
+     "testimonialsheading": "लोग क्या कह रहे हैं।",
+  "testimonialsdescription": "उन लोगों से सुनें जिन्होंने इसका प्रभाव प्रत्यक्ष रूप से अनुभव किया है।",
 
-      "testimonials.1.message": "व्यक्तिगत उर्वरक सुझावों से हमने फसल पोषण अनुकूलित किया और बर्बादी कम की। सटीक सिफारिशों ने फसल स्वास्थ्य सुधारते हुए लागत कम की है।",
-      "testimonials.1.name": "प्रिया मेहता",
-      "testimonials.1.role": "कृषि सलाहकार",
+  "testimonials.0.message": "एआई-संचालित फसल सिफारिश सुविधा ने हमारी खेती की प्रक्रिया बदल दी है। यह सुनिश्चित करता है कि हम मिट्टी और मौसम के अनुसार सही फसल लगाएं, जिससे बेहतर उत्पादन और सतत खेती संभव हो सके।",
+  "testimonials.0.name": "डॉ. अर्जुन पटेल",
+  "testimonials.0.role": "कृषिविज्ञानी",
 
-      "testimonials.2.message": "फसल उत्पादन भविष्यवाणी उपकरण हमारे खेत के लिए गेम-चेंजर साबित हुआ। यह संभावित उत्पादन की स्पष्ट समझ देकर कटाई योजना और संसाधन प्रबंधन में मदद करता है।",
-      "testimonials.2.name": "सुरेश कुमार",
-      "testimonials.2.role": "खेत प्रबंधक",
+  "testimonials.1.message": "व्यक्तिगत उर्वरक सुझावों से, हमने फसल पोषण को अनुकूलित किया और अपव्यय को कम किया। सटीक सिफारिशों ने हमारी फसलों के स्वास्थ्य में सुधार किया और लागत को घटाया।",
+  "testimonials.1.name": "प्रिया मेहता",
+  "testimonials.1.role": "कृषि सलाहकार",
 
-      "testimonials.3.message": "मौसम डेटा, फसल सिफारिशों और सिंचाई नियंत्रण का संयोजन हमारे गाँव की कृषि को बहुत लाभ पहुँचाया है। यह प्लेटफॉर्म सभी जानकारी एक स्थान पर प्रदान करता है।",
-      "testimonials.3.name": "अंजलि सिंह",
-      "testimonials.3.role": "स्थानीय सरकारी अधिकारी",
+  "testimonials.2.message": "फसल उपज पूर्वानुमान उपकरण हमारे खेत के लिए एक गेम-चेंजर रहा है। यह हमें संभावित उपज की स्पष्ट समझ देता है, जिससे हमें कटाई की योजना बनाने और संसाधनों का बेहतर प्रबंधन करने में मदद मिलती है।",
+  "testimonials.2.name": "सुरेश कुमार",
+  "testimonials.2.role": "फार्म प्रबंधक",
 
-      "testimonials.4.message": "सिस्टम की AI-आधारित अंतर्दृष्टि ने हमारे क्षेत्र की विभिन्न मिट्टी स्थितियों के लिए उपयुक्त फसलों की पहचान में महत्वपूर्ण भूमिका निभाई है। इसने किसानों को बेहतर रोपण निर्णय लेने में सक्षम बनाया है।",
-      "testimonials.4.name": "राहुल देशाई",
-      "testimonials.4.role": "मृदा वैज्ञानिक",
+  "testimonials.3.message": "मौसम डेटा, फसल सिफारिशें और सिंचाई नियंत्रण के संयोजन ने हमारे गांव की कृषि गतिविधियों को अत्यधिक लाभ पहुंचाया है। यह मंच हमें सभी आवश्यक जानकारियाँ एक ही स्थान पर प्रदान करता है।",
+  "testimonials.3.name": "अंजलि सिंह",
+  "testimonials.3.role": "स्थानीय सरकारी अधिकारी",
 
-      "testimonials.5.message": "इस प्लेटफॉर्म का उपयोग शुरू करने के बाद से मेरे खेत का उत्पादन काफी बढ़ गया है। फसल सिफारिश और सिंचाई नियंत्रण उपकरणों ने अनिश्चितता दूर कर सब कुछ अधिक कुशल बना दिया है।",
-      "testimonials.5.name": "रवि शर्मा",
-      "testimonials.5.role": "किसान",
+  "testimonials.4.message": "इस प्रणाली की एआई-संचालित अंतर्दृष्टि ने विभिन्न मिट्टी की स्थितियों के लिए उपयुक्त फसलों की पहचान करने में महत्वपूर्ण भूमिका निभाई है। इससे किसानों को बेहतर फसल लगाने के निर्णय लेने में मदद मिली है।",
+  "testimonials.4.name": "राहुल देसाई",
+  "testimonials.4.role": "मृदा वैज्ञानिक",
+
+  "testimonials.5.message": "इस मंच का उपयोग करने के बाद से, मेरे खेत की उपज में उल्लेखनीय वृद्धि हुई है। फसल सिफारिश और सिंचाई नियंत्रण उपकरणों ने खेती को अधिक कुशल बना दिया है।",
+  "testimonials.5.name": "रवि शर्मा",
+  "testimonials.5.role": "किसान",
 
       // Features Card Section in Hindi
       "featureCardheading": "हमारी विशेषताएं जानें",
@@ -380,28 +390,26 @@ feature4description: "వర్షం పడే ముందు నీరు వ
       "featuresCard.title4": "फसल बाजार प्रवृत्ति विश्लेषक",
       "featuresCard.description4": "बाजार में फसलों और सब्जियों के मूल्यों का विश्लेषण कर किसानों के लाभ को अनुकूलित करने हेतु सुझाव प्रदान करता है",
 
-      // Features Section
-    "featureheading": "हमारी विशेषताएँ",
-    "featuredescription": "हमारी स्मार्ट सिंचाई प्रणाली की मुख्य विशेषताओं को जानें जो जल प्रबंधन को कुशल बनाती हैं और टिकाऊ कृषि को बढ़ावा देती हैं।",
+     "featureheading": "हमारी विशेषताएँ",
+"featuredescription": "जानें कि कैसे हमारी एआई-संचालित समाधान किसानों को डेटा-संचालित अंतर्दृष्टि, अनुकूलित फसल प्रबंधन और सतत कृषि पद्धतियों से सशक्त बनाते हैं।",
 
-    "feature1title":"रियल-टाइम मिट्टी निगरानी",
-    "feature1description":"फसलों के लिए आदर्श विकास स्थितियाँ बनाए रखने हेतु मिट्टी की नमी को रियल-टाइम ट्रैक करें।",
-    
-    "feature2title":"स्मार्ट स्वचालित सिंचाई",
-    "feature2description":"रियल-टाइम सेंसर रीडिंग और फसल आवश्यकताओं के आधार पर पानी के पंपों को स्वचालित रूप से नियंत्रित करें।",
-    
-    "feature3title":"अधिकतम जल दक्षता",
-    "feature3description":"टिकाऊ कृषि और स्वस्थ फसलों को सुनिश्चित करते हुए पानी की बर्बादी कम करने के लिए भविष्यकथी विश्लेषण का उपयोग करें।",
-    
-    "feature4title":"मौसम-अनुकूल सिंचाई",
-    "feature4description":"वर्षा से पहले पानी बचाने के लिए मौसम पूर्वानुमान के साथ सिंचाई अनुसूची को गतिशील रूप से समायोजित करें।",
+"feature1title": "फसल सिफारिश",
+"feature1description": "मिट्टी की स्थिति, मौसम और स्थान-विशिष्ट डेटा के आधार पर सर्वश्रेष्ठ फसलें उगाने के लिए एआई-संचालित सिफारिशें प्राप्त करें।",
 
-    // Map Card Section
-    "mapCardheading": "स्मार्ट सिंचाई क्यों महत्वपूर्ण है?",
-    "mapCarddescription1": "पानी के उपयोग को अनुकूलित करने और बर्बादी कम करने के लिए मिट्टी की नमी की रियल-टाइम निगरानी करें।",
-    "mapCarddescription2": "सिंचाई आवश्यकताओं का सटीक अनुमान लगाने के लिए भौगोलिक स्थान और मौसम डेटा का उपयोग करें।",
-    "mapCarddescription3": "क्लाउड नियंत्रण के माध्यम से पानी के पंपों को स्वचालित करें, फसलों को सही समय पर पानी मिले।",
+"feature2title": "पेस्टपीडिया – स्मार्ट कीट प्रबंधन",
+"feature2description": "कीटों की पहचान करें, उनके फसलों पर प्रभाव को समझें और संक्रमण को प्रभावी ढंग से कम करने के लिए पर्यावरण-अनुकूल समाधान प्राप्त करें।",
 
+"feature3title": "फसल स्वैपिंग और अनुकूलन",
+"feature3description": "वास्तविक समय के मौसम अपडेट और बाजार प्रवृत्तियों के आधार पर उत्पादन और उपज की भविष्यवाणी करके फसल चयन को अनुकूलित करें।",
+
+"feature4title": "फसल बाजार प्रवृत्ति विश्लेषक",
+"feature4description": "फसलों और सब्जियों की बाजार कीमतों का विश्लेषण करें, जिससे किसानों को अधिकतम लाभ प्राप्त करने और स्थिरता बढ़ाने में मदद मिले।",
+
+    "mapCardheading": "एआई-संचालित कृषि क्यों महत्वपूर्ण है?",
+"mapCarddescription1": "मिट्टी की स्थिति और मौसम पैटर्न की वास्तविक समय निगरानी से फसल उत्पादकता बढ़ाएं।",
+"mapCarddescription2": "कुशल संसाधन प्रबंधन के लिए एआई-संचालित अंतर्दृष्टि का उपयोग करके डेटा-आधारित निर्णय लें।",
+"mapCarddescription3": "स्मार्ट सेंसर और क्लाउड-आधारित नियंत्रण प्रणालियों का उपयोग करके सिंचाई, कीट नियंत्रण और उर्वरक प्रबंधन को स्वचालित करें।"
+,
     // Optimal Crop Season Card Section
     "optimalCropSeasonCardheading": "इष्टतम फसल मौसम भविष्यवक्ता",
     "optimalCropSeasonCarddescription": "यह बुद्धिमान उपकरण उपयोगकर्ताओं को विशिष्ट फसलों के लिए आदर्श मौसम निर्धारित करने में सहायक है। यह फसल वर्ष, फसल प्रकार और राज्य सहित विभिन्न कारकों का विश्लेषण कर सटीक सिफारिशें प्रदान करता है, जिससे किसान न्यूनतम जल और संसाधन उपयोग के साथ उत्तम उत्पादन प्राप्त कर सकें।",
