@@ -32,8 +32,8 @@ import { CommonProvider } from "./context/common/commonContext.jsx";
 import DiseasePage from "./pages/PlantDisease/DiseasePage.jsx";
 import WeatherGeoFencing from "./pages/WeatherGeoFencing/WeatherGeoFencing.jsx";
 import SoilAnalytic from "./pages/SoilAnalytic/SoilAnalytic.jsx";
-import Fertilizer from "./pages/Fertilizers/SideNavs/Fertilizer.jsx";
 import FertilizersPage from "./pages/Fertilizers/FertilizersPage.jsx";
+import FarmerSupportServices from "./pages/FarmerSupportServices/FarmerSupportServices.jsx";
 // import LanguageSwitcher from "./components/LanguageSwitcher.jsx";
 
 const queryClient = new QueryClient();
@@ -60,7 +60,8 @@ const router = createBrowserRouter([
 			{path:"optimalCropSeason",element: <OptimalCropSeason/>}, // done
 			{path:"cropYieldPredictor",element: <CropYieldPredictor/>}, // done
 			{path:"geoSpatialCropAnalysis",element: <GeoSpatialCropAnalysis/>}, // done
-			{path:"cropMarketTrendAnalyzer",element: <CropMarketTrendAnalyzerPage/>}, // done
+			{ path: "cropMarketTrendAnalyzer", element: <CropMarketTrendAnalyzerPage /> }, // done
+			{ path: "farmerSupportServices", element: <FarmerSupportServices /> }, // done
 
 		],
 	},

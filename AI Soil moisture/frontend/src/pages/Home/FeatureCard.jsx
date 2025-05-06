@@ -40,7 +40,7 @@ const features = [
 	  title: "feature4title",
 	  description:
 		"feature4description",
-	},
+	}
   ];
   
 

@@ -23,14 +23,14 @@ const Features = () => {
   return (
     <>
       <section className="services-section py-8 md:py-12 md:mt-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-12 text-center">
           <h2 className="text-3xl font-extrabold dark:text-white">{t("featureCardheading")}</h2>
           <p className="mt-4 text-lg leading-6 dark:text-gray-300">
             {t("featureCarddescription")}
           </p>
           <div className="text-left flex flex-wrap md:justify-between justify-center space-x-4">
             {CardData.map((data, index) => (
-              <Card key={index} className="mt-6 w-72 flex flex-col bg-white rounded-lg dark:bg-gray-800 hover:shadow-2xl
+              <Card key={index} className="mt-6 w-64 flex flex-col bg-white rounded-lg dark:bg-gray-800 hover:shadow-2xl
               hover:cursor-pointer
               hover:scale-105
               transition-all
